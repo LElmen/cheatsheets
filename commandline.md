@@ -25,6 +25,7 @@ This will create the gzipped tarball `voyages_different_direction.tar.gz` with e
 tar -zcvf voyages_different_direction.tar.gz voyages_different_direction_*
 ```
 
+
 ### Decompress a gzipped tarball
 
 The `-` is optional, can also say `tar -xzvf`
@@ -92,3 +93,6 @@ To install a program from source on a shared cluster, you will often need to spe
 ./configure --prefix=/projects/ps-yeolab/software
 make && make install   # "make install" will run only if "make" is successful
 ```
+#To fork = make copy that you can edit and push back
+#Clone = make copy that is yours, but you may not be able to push it back
+#wget = get website
